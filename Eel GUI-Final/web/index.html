@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ro-Dolf"
+    />
+    <title>RoDolf - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">Ro</span>Dolf</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              ALl your fitness goals, in one place 
+            </h1>
+            <p class="description">
+              Posture detection, accuracy detection, habit builder and much more!
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom" onclick="justDance()">
+              Accuracy Detection!
+            </button>
+            <button class="btn btn__primary margin-right margin-bottom" onclick="justDance()">
+              <a href="indexb.html">
+              Accuracy Detection Link 
+              </a>
+            </button>
+            <input type="button" class="btn btn__primary margin-right margin-bottom" value="Accuracy Detection" onclick="Dance()">
+            <button class="btn btn__secondary" onclick="justDance()">Your Garden</button>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Programs Offered</h2>
+            <p>
+              Try our wide range of prgrams, for all body types!
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://wallpapercave.com/wp/wp6126536.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Master Proper Form First. Before you do anything in bodybuilding, it's vital that you master proper form.
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://cdn.shopify.com/s/files/1/0327/8461/3514/files/battle-rope-crossfit.jpg?v=1636646101"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    CrossFit is a safe training option when practiced in a controlled environment, and it is not more dangerous than other training methods
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIb5sxtUZ2bbFhvae-2WRAftB-WViAXAhskg4qeHupe8hQD6HSSp7c5EqDaneYmulCvM&usqp=CAU"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Gymnastics is a sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination,dedication and endurance.
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="http://hammerfitness.in/wp-content/uploads/2015/02/resistance_band_couple_workout.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    General fitness training works towards broad goals of overall health and well-being, rather than narrow goals of sport competition, larger muscles,etc.
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">General Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbbsCjlMPHHmH7_Hsgj4IM7b_DE7ORbUthDvqLYZsT8yktbjPJds_Sg9BjyENra4opVjE&usqp=CAU"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    
+TRX which stands for Total Body Resistance Exercise, is revolutionary workout method that uses your body weight and gravity as resistance to build strength, balance, coordination, flexibility, core and joint stability.
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://static.toiimg.com/thumb/msid-80828434,width-1200,height-900,resizemode-4/.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    The chief advantage kickboxing has over boxing is its range of tools. Kickboxers train their hands, feet, elbow, knees and sometimes heads as weapons for striking
+                  </p>
+
+                  <a href="indexa.html" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">KickBoxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <h2 class="heading heading--2 underline margin-bottom">
+          TRACK YOUR PROGRESS!
+        </h2>
+        <div class="offer-box">
+          <div class="graph">
+            <ul class="months">
+              <li>Jan</li>
+              <li>Feb</li>
+              <li>Mar</li>
+              <li>Apr</li>
+              <li>May</li>
+              <li>Jun</li>
+              <li>Jul</li>
+              <li>Aug</li>
+              <li>Sep</li>
+              <li>Oct</li>
+              <li>Nov</li>
+              <li>Dec</li>
+            </ul>
+            <ul class="days">
+              <li>Sun</li>
+              <li>Mon</li>
+              <li>Tue</li>
+              <li>Wed</li>
+              <li>Thu</li>
+              <li>Fri</li>
+              <li>Sat</li>
+            </ul>
+            <ul class="squares">
+              <script>
+                // Add squares
+
+const squares = document.querySelector('.squares');
+for (var i = 1; i < 365; i++) {
+  const level = Math.floor(Math.random() * 3);  
+  squares.insertAdjacentHTML('beforeend', `<li data-level="${level}"></li>`);
+}
+              </script>
+            </ul>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+
+      <!-- BMI CALCULATOR -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              BMI <span class="yellow">CALCULATOR</span>
+            </h2>
+
+            <div class="container">
+              
+              <p>Height (in cm)</p>
+        
+              <input type="text" id="height">
+        
+              <p>Weight (in kg)</p>
+        
+              <input type="text" id="weight">
+        
+              <button id="btn" class="btn btn__primary margin-right margin-bottom">Calculate</button>
+        
+              <div id="result"></div>
+
+              <script>
+                window.onload = () => {
+    let button = document.querySelector("#btn");
+  
+    // Function for calculating BMI
+    button.addEventListener("click", calculateBMI);
+};
+  
+function calculateBMI() {
+  
+    /* Getting input from user into height variable.
+    Input is string so typecasting is necessary. */
+    let height = parseInt(document
+            .querySelector("#height").value);
+  
+    /* Getting input from user into weight variable. 
+    Input is string so typecasting is necessary.*/
+    let weight = parseInt(document
+            .querySelector("#weight").value);
+  
+    let result = document.querySelector("#result");
+  
+    // Checking the user providing a proper
+    // value or not
+    if (height === "" || isNaN(height)) 
+        result.innerHTML = "Provide a valid Height!";
+  
+    else if (weight === "" || isNaN(weight)) 
+        result.innerHTML = "Provide a valid Weight!";
+  
+    // If both input is valid, calculate the bmi
+    else {
+  
+        // Fixing upto 2 decimal places
+        let bmi = (weight / ((height * height) 
+                            / 10000)).toFixed(2);
+  
+        // Dividing as per the bmi conditions
+        if (bmi < 18.6) result.innerHTML =
+            `Under Weight : <span>${bmi}</span>`;
+  
+        else if (bmi >= 18.6 && bmi < 24.9) 
+            result.innerHTML = 
+                `Normal : <span>${bmi}</span>`;
+  
+        else result.innerHTML =
+            `Over Weight : <span>${bmi}</span>`;
+    }
+}
+              </script>
+          </div>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+      
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">Ro</span>Dolf</h2>
+
+          <ul class="contact-data">
+            <li class="location">Location</li>
+            <li class="phone">+00 000 000 00</li>
+            <li class="email">RoDolf@domain.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            nisi!
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">Copyright &copy; by AAA&nbsp;</p>
+          <a href="https://github.com/Manoranjan-D/responsive-website-gym">
+            <img
+              src="img/github.svg"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
